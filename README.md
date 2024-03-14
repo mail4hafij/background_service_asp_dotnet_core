@@ -1,5 +1,5 @@
 # Background Service
-A simple example of running a Background service in asp.net core application
+A simple example of running a Background service in asp.net core application. 
 
 
 ```
@@ -36,3 +36,5 @@ builder.Services.AddHostedService<MyBackgroundService>();
 ```
 
 
+If we need to run the background service indefinitely then do the following in the IIS server - 
+<img src="application_pool.png" />
