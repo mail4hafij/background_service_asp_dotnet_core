@@ -36,5 +36,5 @@ builder.Services.AddHostedService<MyBackgroundService>();
 ```
 
 
-If we need to run the background service indefinitely then do the following in the IIS server - 
+If we need to run the background service indefinitely then the following settings are needed in the IIS server - 
 <img src="application_pool.png" />
